@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fontawesome.com/v6.0/icons?q=bars&s=solid%2Cbrands">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./login.css">
+    <title>Registro RegalArte</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="./index.html"> <img src="./assets/logo.png" alt=""></a>
+            <h1>RegalArte Book</h1>
+        </div>
+
+        <div class="menu">
+            <nav>
+                <img src="./assets/hamburger_icon_143010.ico" class="bars" alt="">
+                <ul class="dropdown">
+                    <li><a href="#">Locales</a></li>
+                    <li><a href="login.html">Mi Cuenta</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="./registro.html" aria-current="true">Registrate </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <form>
+            <div class="container">
+                <label for="uname">Mail</label>
+                <input type="email" placeholder="Ingresá un mail" name="mail" required>
+
+                <label for="psw">Contraseña</label>
+                <input type="password" placeholder="Ingresá una contraseña" name="psw" required>
+
+                <button type="submit">Registrarme</button>
+                <label>
+                    <input class="check" type="checkbox" checked="checked" name="remember"> Recordarme
+                </label>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

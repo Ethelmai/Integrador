@@ -1,0 +1,132 @@
+header {
+    width: 100%;
+    height: 4em;
+    padding: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--main-pink);
+    position: absolute;
+}
+
+header {
+    flex-wrap: initial;
+    flex-direction: unset;
+}
+
+header img {
+    width: 8em;
+    height: 5em;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--main-eggshell);
+    font-size: 1em;
+}
+
+.bars {
+    width: 52px;
+    height: 31px;
+    padding: 1px 12px;
+    margin: 19px
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: var(--main-black);
+    min-width: 160px;
+    padding: 0px 24px;
+    padding: 11px 53px;
+    z-index: 5;
+    top: 63px;
+    left: -89px;
+}
+
+.menu:hover .dropdown {
+    display: block;
+    color: var(--main-shade);
+}
+
+.dropdown li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+/* form */
+
+input[type=email],
+input[type=password] {
+    width: 73%;
+    padding: 12px 20px;
+    margin: auto;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    text-align: center;
+    
+    margin: 25% 8%;
+    border: 2px solid var(--main-eggshell);
+    padding: 3%;
+    box-shadow: 2px 2px 3px 1px var(--main-shade);
+}
+
+button {
+    margin: 2% 13%;
+    width: 74%;
+    background-color: var(--main-pink);
+    border-radius: 5px;
+    border: 2px solid var(--main-shade);
+    cursor: pointer;
+    padding: 2%;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.check {
+    margin-left: 0;
+}
+
+.product {
+    width: 80%;
+    height: 30%;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 60%;
+        margin: 5% 18%;
+    }
+
+    form,
+    input {
+        font-size: 1em;
+    }
+}
+
+
+
+    

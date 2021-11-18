@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda de libros">
+    <link rel="stylesheet" href="https://fontawesome.com/v6.0/icons?q=bars&s=solid%2Cbrands">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>RegalArte Book</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <a href="./index.html"> <img src="./assets/logo.png" alt=""></a>
+
+                <h1>RegalArte Book</h1>
+            </div>
+          
+            <div class="menu">
+                <nav>
+                    <img src="./assets/hamburger_icon_143010.ico" class="bars" alt="">
+                    <ul class="dropdown">
+                        <li><a href="#">Locales</a></li>
+                        <li><a href="./registro.html">Mi Cuenta</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="./login.html" aria-current="true">Registrate </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <nav>
+            <ul class="inlineList">
+                <li><a href="#">Libros</a></li>
+                <li><a href="#">Infantil</a></li>
+                <li><a href="#">Más Leídos</a></li>
+                <li><a href="#./carousel">Recomendados</a></li>
+            </ul>
+        </nav>
+        <div class="description">
+            <p>Una tienda donde vas a encontrar todos los libros que busques.</p>
+        </div>
+        <section class="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/1_el_italiano.jpg" class="d-block" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/2_astrologia_reencantar.jpg" class="d-block" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/6_rosa_la_sanguinaria.png" class="d-block" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="product-container">
+            <div class="product">
+                <div class="imgContainer">
+                    <span class="heart">
+                        <i class="fas fa-heart"></i>
+                    </span>
+                    <img src="./assets/el ladron del rayo.jpeg">
+                </div>
+                <p>El Ladron del Rayo.</p>
+                <p class="price">700 $</p>
+                <button>
+                    <a href="./productouno.html">Ver más</a>
+                </button>
+            </div>
+
+
+            <div class="product">
+                <div class="imgContainer">
+                    <span class="heart">
+                        <i class="fas fa-heart"></i>
+                    </span>
+                    <img src="./assets/el principito.jpeg">
+                </div>
+                <p>El Principito.</p>
+                <p class="price">899 $</p>
+                <button>
+                    <a href="./productodos.html">Ver más</a>
+                </button>
+            </div>
+
+
+            <div class="product">
+                <div class="imgContainer">
+                    <span class="heart">
+                        <i class="fas fa-heart"></i>
+                    </span>
+                    <img src="./assets/historias de divan.jpeg">
+                </div>
+                <p>Historias de Diván.</p>
+                <p class="price">299 $</p>
+                <button>
+                    <a href="./productotres.html">Ver más</a>
+                </button>
+            </div>
+
+            <div class="product">
+                <div class="imgContainer">
+                    <span class="heart">
+                        <i class="fas fa-heart"></i>
+                    </span>
+                    <img src="./assets/inadoptables.jpeg">
+                </div>
+                <p> Los Inadoptables.</p>
+                <p class="price">699 $</p>
+                <button>
+                    <a href="./productocuatro.html">Ver más</a>
+                </button>
+            </div>
+        </section>
+    </main>
+   
+
+    <footer>
+        <div>
+            <div class="hijo1">
+                <p>Seguinos en las redes
+                    <a "#" target="_blank"><img src="./assets/facebook_icon_194147.ico" alt=""></a>
+                    <img src="./assets/instagram_icon_194148.ico" alt=""><a "#" target="_blank"></a>
+                </p>
+            </div>
+
+            <hr>
+
+            <div class="hijo2">
+                <p>Copyrigth 2021 by Ethel-Nucba</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
