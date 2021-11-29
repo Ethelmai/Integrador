@@ -133,7 +133,7 @@ header a {
 
 .dropdown li,
 a {
-    list-style: none;
+    text-decoration: none;
 }
 
 /* nav oculto */
