@@ -41,7 +41,8 @@ h1 {
     display: none;
 }
 
-p,
+h2,
+h3,
 li,
 button {
     font-family: 'Gears', sans-serif;
